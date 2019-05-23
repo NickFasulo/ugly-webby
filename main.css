@@ -6,6 +6,7 @@ h1 {
     letter-spacing: -125px;
     line-height: 1;
     text-align: center;
+    text-shadow: 200px 200px indigo
 }
 
 p {
@@ -33,6 +34,7 @@ ul, ol {
 li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid rgb(109, 3, 3);
+    writing-mode: vertical-rl
 }
    
 li:last-child {
@@ -52,8 +54,10 @@ input, textarea {
     margin:200px
 }
 Body {
-    background-image: url(https://gph.to/2WjLZT2);
+    background-image: url(https://cdn.wallpapersafari.com/6/57/QYGhkK.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
+    animation: ease-in-out;
 }
