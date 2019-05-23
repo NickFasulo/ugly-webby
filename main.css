@@ -10,6 +10,9 @@ h1 {
 }
 
 p {
+    border: 150px solid transparent;
+    padding: 250px;
+    border-image: url(https://gph.to/2YIDnTp);
     color: #0d7a09;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 5px;
