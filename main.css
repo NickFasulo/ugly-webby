@@ -26,6 +26,9 @@ textarea {
 }
 
 ul, ol {
+    border: 500px solid transparent;
+    padding: 15px;
+    border-image: url(https://gph.to/2YLnhIC);
     margin: 20px;
     padding: 0;
     color: yellow;
@@ -55,9 +58,5 @@ input, textarea {
 }
 Body {
     background-image: url(https://cdn.wallpapersafari.com/6/57/QYGhkK.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-    animation: ease-in-out;
+    background-size: contain;
 }
