@@ -1,18 +1,18 @@
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    color: rgb(105, 11, 11);
+    font-family: cursive;
+    font-size: 1000px;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -125px;
     line-height: 1;
     text-align: center;
 }
 
 p {
-    color: #685206;
+    color: #0d7a09;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 5px;
+    line-height: 55px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
@@ -27,26 +27,33 @@ textarea {
 ul, ol {
     margin: 20px;
     padding: 0;
+    color: yellow;
 }
 
 li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(109, 3, 3);
 }
    
 li:last-child {
-    border: none;
+    border: brown;
 }
 
 form {
     height:110px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:200px rgb(61, 248, 4) solid;
     padding:10px;
 }
     
 input, textarea {
-    padding:5px;
-    margin:5px
+    padding:500px;
+    margin:200px
+}
+Body {
+    background-image: url(https://gph.to/2WjLZT2);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
 }
